@@ -4,6 +4,7 @@
     <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_practiceSharp.-822772005.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Clase 1" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="practiceSharp" t="IncludeRecursive">
         <e p="Program.cs" t="Include" />
