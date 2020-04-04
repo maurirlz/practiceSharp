@@ -4,14 +4,14 @@
     <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_practiceSharp.-822772005.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="Ejercicio1.cs" t="IncludeRecursive">
-        <e p="Ejercicio1.cs" t="Include" />
-        <e p="Ejercicio1.cs.csproj" t="IncludeRecursive" />
+      <e p="Ejercicio1" t="IncludeRecursive">
+        <e p="Ejercicio1.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="Ejercicio1.cs.AssemblyInfo.cs" t="Include" />
+              <e p="Ejercicio1.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -19,7 +19,6 @@
       <e p="Ejercicio2" t="IncludeRecursive">
         <e p="Ejercicio2.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
-        <e p="Program.cs~" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
