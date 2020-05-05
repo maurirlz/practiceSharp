@@ -87,22 +87,22 @@ namespace Matrices
                         break;
                     case ConsoleKey.D8:
 
-                        Console.WriteLine("The sum between the two matrixes inputted is: ");
+                        Console.WriteLine("The sum between the two Matrices inputted is: ");
                         
-                        SumBetweenTwoMatrixes(firstMatrix, secondMatrix, out int[,] resultSum);
+                        SumBetweenTwoMatrices(firstMatrix, secondMatrix, out int[,] resultSum);
                         PrintMatrix(resultSum);
                         
                         break;
                     case ConsoleKey.D9:
 
-                        SubtractionBetweenTwoMatrixes(firstMatrix, secondMatrix, out int[,] resultSubtraction);
+                        SubtractionBetweenTwoMatrices(firstMatrix, secondMatrix, out int[,] resultSubtraction);
                         PrintMatrix(resultSubtraction);
 
                         break;
                     
                     case ConsoleKey.D0:
 
-                        Console.WriteLine("Equality between the two matrixes inputted: {0}", IgualityCheckBetweenTwoMatrixes(firstMatrix, secondMatrix));
+                        Console.WriteLine("Equality between the two Matrices inputted: {0}", IgualityCheckBetweenTwoMatrices(firstMatrix, secondMatrix));
 
                         break;
                         
@@ -121,10 +121,10 @@ namespace Matrices
             } while (!flag);
         }
         
-        private static bool IgualityCheckBetweenTwoMatrixes(int[,] firstMatrix, int[,] secondMatrix)
+        private static bool IgualityCheckBetweenTwoMatrices(int[,] firstMatrix, int[,] secondMatrix)
         {
 
-            if (OrderCheckBetweenTwoMatrixes(firstMatrix, secondMatrix))
+            if (OrderCheckBetweenTwoMatrices(firstMatrix, secondMatrix))
             {
                 for (int i = 0; i < firstMatrix.GetLength(0); i++)
                 {
@@ -145,10 +145,10 @@ namespace Matrices
             return false;
         }
 
-        private static void SubtractionBetweenTwoMatrixes(int[,] firstMatrix, int[,] secondMatrix, out int[,] result)
+        private static void SubtractionBetweenTwoMatrices(int[,] firstMatrix, int[,] secondMatrix, out int[,] result)
         {
 
-            if (OrderCheckBetweenTwoMatrixes(firstMatrix, secondMatrix))
+            if (OrderCheckBetweenTwoMatrices(firstMatrix, secondMatrix))
             {
                 int rows = firstMatrix.GetLength(0);
                 int columns = firstMatrix.GetLength(1);
@@ -165,14 +165,14 @@ namespace Matrices
                 }
             }
 
-            Console.WriteLine("Matrixes doesn't have the same order, returning first matrix.");
+            Console.WriteLine("Matrices doesn't have the same order, returning first matrix.");
             result = firstMatrix;
         }
 
-        private static void SumBetweenTwoMatrixes(int[,] firstMatrix, int[,] secondMatrix, out int[,] result)
+        private static void SumBetweenTwoMatrices(int[,] firstMatrix, int[,] secondMatrix, out int[,] result)
         {
 
-            if (OrderCheckBetweenTwoMatrixes(firstMatrix, secondMatrix))
+            if (OrderCheckBetweenTwoMatrices(firstMatrix, secondMatrix))
             {
                 int rows = firstMatrix.GetLength(0);
                 int columns = firstMatrix.GetLength(1);
@@ -188,7 +188,7 @@ namespace Matrices
                 }
             }
 
-            Console.WriteLine("Matrixes doesn't have the same order, returning first matrix.");
+            Console.WriteLine("Matrices doesn't have the same order, returning first matrix.");
             result = firstMatrix;
         }
 
@@ -418,7 +418,7 @@ namespace Matrices
             return matrix.GetLength(0) == matrix.GetLength(1);
         }
 
-        private static bool OrderCheckBetweenTwoMatrixes(int[,] firstMatrix, int[,] secondMatrix)
+        private static bool OrderCheckBetweenTwoMatrices(int[,] firstMatrix, int[,] secondMatrix)
         {
 
             bool columnOrderCheck = firstMatrix.GetLength(1) == secondMatrix.GetLength(1);
@@ -462,7 +462,7 @@ namespace Matrices
                 .Append("\n\t7. Get the scalar multiplication between a number and the given matrix.")
                 .Append("\n\t8. Get the sum of two matrix.")
                 .Append("\n\t9. Get the subtraction between two matrix.")
-                .Append("\n\t0. Determine if two matrixes are equal.")
+                .Append("\n\t0. Determine if two Matrices are equal.")
                 .Append("\n Press Q to quit: ");
             
             return sb.ToString();
