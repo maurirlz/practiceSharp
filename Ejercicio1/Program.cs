@@ -15,7 +15,7 @@ namespace practiceSharp
             Mostrar “El número es impar”
         FinSi
         * Fin
- */ 
+           */ 
             
             Console.WriteLine("Introduzca un numero: ");
             int number = Convert.ToInt32(Console.ReadLine());
