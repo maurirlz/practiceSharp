@@ -114,7 +114,10 @@ namespace Matrices
                         Console.WriteLine("Invalid pressed key.");
                         break;
                 }
-                
+
+                Console.WriteLine("\nPress a key to go back to the main menu: ");
+                Console.ReadKey();
+
             } while (!flag);
         }
         
@@ -321,11 +324,13 @@ namespace Matrices
             {
 
                 AutomaticallyLoadAMatrix(out matrix);
-                
-                
+                return;
+
+
             } if (input.Key == ConsoleKey.D2 || input.Key == ConsoleKey.NumPad2)
             {
                 ManuallyLoadAMatrix(out matrix);
+                return;
             }
 
             matrix = new int[2,2];
@@ -334,8 +339,8 @@ namespace Matrices
         private static void AutomaticallyLoadAMatrix(out int[,] matrix)
         {
             Random random = new Random();
-            int firstRandomDimension = random.Next(0, 9);
-            int secondRandomDimension = random.Next(0, 9);
+            int firstRandomDimension = random.Next(1, 9);
+            int secondRandomDimension = random.Next(1, 9);
                 
             matrix = new int[firstRandomDimension,secondRandomDimension];
                 
@@ -379,7 +384,7 @@ namespace Matrices
                         break;
                 }
                 
-            } while (numberOfColumns > 0 && numberOfRows > 0);
+            } while (numberOfColumns <= 0 && numberOfRows <= 0);
             
             matrix = new int[numberOfRows,numberOfColumns];
             
@@ -448,16 +453,16 @@ namespace Matrices
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("Matrix app: ")
-                .Append("\n\t0. Manually load two matrix.")
-                .Append("\n\t1. Automatically load a matrix. ")
-                .Append("\n\t2. Get the transposed matrix of the loaded matrix.")
-                .Append("\n\t3. Get the trace of the given matrix: ")
-                .Append("\n\t4. Determine if the given matrix is an identity one.")
-                .Append("\n\t5. Get the diagonal matrix: ")
-                .Append("\n\t6. Get the scalar multiplication between a number and the given matrix.")
-                .Append("\n\t7. Get the sum of two matrix.")
-                .Append("\n\t8. Get the subtraction between two matrix.")
-                .Append("\n\t9. Determine if two matrixes are equal.")
+                .Append("\n\t1. Manually load two matrix.")
+                .Append("\n\t2. Automatically load a matrix. ")
+                .Append("\n\t3. Get the transposed matrix of the loaded matrix.")
+                .Append("\n\t4. Get the trace of the given matrix: ")
+                .Append("\n\t5. Determine if the given matrix is an identity one.")
+                .Append("\n\t6. Get the diagonal matrix: ")
+                .Append("\n\t7. Get the scalar multiplication between a number and the given matrix.")
+                .Append("\n\t8. Get the sum of two matrix.")
+                .Append("\n\t9. Get the subtraction between two matrix.")
+                .Append("\n\t0. Determine if two matrixes are equal.")
                 .Append("\n Press Q to quit: ");
             
             return sb.ToString();
