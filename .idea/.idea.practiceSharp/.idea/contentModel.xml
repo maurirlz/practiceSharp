@@ -77,6 +77,22 @@
           </e>
         </e>
       </e>
+      <e p="TercerEjercioOOP" t="IncludeRecursive">
+        <e p="Circle.cs" t="Include" />
+        <e p="PruebaFigura.cs" t="Include" />
+        <e p="Shape.cs" t="Include" />
+        <e p="Square.cs" t="Include" />
+        <e p="TercerEjercioOOP.csproj" t="IncludeRecursive" />
+        <e p="Triangle.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TercerEjercioOOP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="practiceSharp.sln" t="IncludeFlat" />
     </e>
