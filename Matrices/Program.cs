@@ -76,6 +76,7 @@ namespace Matrices
                         break;
                     case ConsoleKey.D7:
 
+                        Console.WriteLine();
                         multiplier = Convert.ToInt32(Console.ReadLine());
 
                         Console.WriteLine("The multiplication between {0} and the first matrix is: ", multiplier);

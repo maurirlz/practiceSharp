@@ -63,6 +63,20 @@
           </e>
         </e>
       </e>
+      <e p="PrimerEjercicioOOP" t="IncludeRecursive">
+        <e p="CuentaCorriente.cs" t="Include" />
+        <e p="Persona.cs" t="Include" />
+        <e p="PrimerEjercicioOOP.csproj" t="IncludeRecursive" />
+        <e p="PruebaCuenta.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="PrimerEjercicioOOP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="practiceSharp.sln" t="IncludeFlat" />
     </e>
