@@ -50,6 +50,7 @@
         <e p="Ejercicio5" t="Include">
           <e p="OOP" t="Include" />
         </e>
+        <e p="Ejercicio6" t="Include" />
       </e>
       <e p="Matrices" t="IncludeRecursive">
         <e p="Matrices.csproj" t="IncludeRecursive" />
@@ -59,6 +60,18 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="Matrices.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="PolimorfismoEInjeccionDeDependencias" t="IncludeRecursive">
+        <e p="PolimorfismoEInjeccionDeDependencias.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="PolimorfismoEInjeccionDeDependencias.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -73,6 +86,20 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="PrimerEjercicioOOP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="SegundoEjercicioOOP" t="IncludeRecursive">
+        <e p="ConjuntoLibros.cs" t="Include" />
+        <e p="Libro.cs" t="Include" />
+        <e p="PruebaLibro.cs" t="Include" />
+        <e p="SegundoEjercicioOOP.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SegundoEjercicioOOP.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
