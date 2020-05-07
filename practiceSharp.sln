@@ -32,7 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicio6", "Ejercicio6", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegundoEjercicioOOP", "SegundoEjercicioOOP\SegundoEjercicioOOP.csproj", "{37918732-4084-45A3-8810-956B48A86C44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolimorfismoEInjeccionDeDependencias", "PolimorfismoEInjeccionDeDependencias\PolimorfismoEInjeccionDeDependencias.csproj", "{E760917E-F74B-449B-A4B7-DD49DB290B00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InyeccionDeDependencias", "InyeccionDeDependencias\InyeccionDeDependencias.csproj", "{E760917E-F74B-449B-A4B7-DD49DB290B00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

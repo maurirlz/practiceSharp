@@ -52,6 +52,25 @@
         </e>
         <e p="Ejercicio6" t="Include" />
       </e>
+      <e p="InyeccionDeDependencias" t="IncludeRecursive">
+        <e p="App.cs" t="Include" />
+        <e p="CalculateArea.cs" t="Include" />
+        <e p="IShape.cs" t="Include" />
+        <e p="InyeccionDeDependencias.csproj" t="IncludeRecursive" />
+        <e p="Paralelogram.cs" t="Include" />
+        <e p="Rectangle.cs" t="Include" />
+        <e p="Rhombus.cs" t="Include" />
+        <e p="Square.cs" t="Include" />
+        <e p="Triangle.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="InyeccionDeDependencias.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Matrices" t="IncludeRecursive">
         <e p="Matrices.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
@@ -60,18 +79,6 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="Matrices.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-      </e>
-      <e p="PolimorfismoEInjeccionDeDependencias" t="IncludeRecursive">
-        <e p="PolimorfismoEInjeccionDeDependencias.csproj" t="IncludeRecursive" />
-        <e p="Program.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="PolimorfismoEInjeccionDeDependencias.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
