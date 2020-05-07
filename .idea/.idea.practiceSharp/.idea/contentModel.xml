@@ -85,7 +85,14 @@
       </e>
       <e p="Polymorphism" t="IncludeRecursive">
         <e p="App.cs" t="Include" />
+        <e p="CalculateArea.cs" t="Include" />
+        <e p="IShape.cs" t="Include" />
+        <e p="Paralelogram.cs" t="Include" />
         <e p="Polymorphism.csproj" t="IncludeRecursive" />
+        <e p="Rectangle.cs" t="Include" />
+        <e p="Rhombus.cs" t="Include" />
+        <e p="Square.cs" t="Include" />
+        <e p="Triangle.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
