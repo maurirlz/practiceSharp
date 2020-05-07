@@ -83,6 +83,18 @@
           </e>
         </e>
       </e>
+      <e p="Polymorphism" t="IncludeRecursive">
+        <e p="App.cs" t="Include" />
+        <e p="Polymorphism.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Polymorphism.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="PrimerEjercicioOOP" t="IncludeRecursive">
         <e p="CuentaCorriente.cs" t="Include" />
         <e p="Persona.cs" t="Include" />
